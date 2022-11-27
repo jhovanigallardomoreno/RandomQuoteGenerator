@@ -1,0 +1,132 @@
+body {
+  width: 100vw;
+  display: flex;
+  margin: 0;
+  justify-content: center;
+  background-color: #3d506e;
+}
+
+h1, p, a {
+  color: white;
+}
+
+#title {
+  text-align: center;
+  margin: 0;
+  font-family: Verdana;
+  text-shadow: 2px 2px black;
+}
+
+#titleContainer {
+  height: 50px;
+  margin-top: 25px;
+}
+
+.testBox {
+/*   background-color: black; */
+  height: 20px;
+  width: 600px;
+  margin-top: 50px;
+  padding: 5px;
+/*   border: black dashed 1px; */
+  text-align: center;
+}
+
+#quote {
+  height: 100px;
+  font-size: 20px;
+  padding: 10px;
+  overflow: hidden;
+  
+  
+  background-color: white;
+  border-radius: 15px 0px 15px 0px;
+  border: black solid 2px;
+  box-shadow: 2px 2px black;
+  
+}
+
+#text {
+  color: black;
+}
+
+#quote > p:before {
+  content: "'";
+}
+
+#quote > p:after {
+  content: "'";
+}
+
+#author {
+  margin-top: 0px;
+  margin-right: 10px;
+  
+  border-radius: 0px 0px 15px 15px;
+  border: solid black 2px;
+  border-top: none;
+  width: 300px;
+  box-shadow: 2px 2px black;
+  
+  background-color: white;
+}
+
+#author > p {
+  color: black;
+}
+
+button {
+  width: 30px;
+  height: 30px;
+  transition: height, 0.5s, width, 0.5s, border-radius, 0.5s; 
+  border-radius: 50%;
+}
+
+button > i {
+  margin-left: 1px;
+}
+
+button:hover {
+  width: 100px;
+  height: 30px;
+  border-radius: 5px;
+  background-color: white;
+  cursor: pointer;
+}
+
+button:active {
+  height: 30px;
+  width: 30px;
+  border-radius: 50%;
+  color: white;
+  background-color: black;
+}
+
+#author > p:before {
+  content: "~ ";
+}
+
+p {
+  margin-top: 0;
+  font-family: Verdana;
+
+}
+
+#tweet-box {
+  margin-top: 90px;
+}
+
+#icon {
+  font-size: 36px;
+  transition: font-size, 0.5s;
+  text-shadow: 2px 2px black;
+  
+}
+
+#icon:hover {
+  font-size: 72px;
+}
+
+#icon:active {
+  color: #1DA1F2;
+}
